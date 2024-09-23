@@ -1,0 +1,64 @@
+/* Navbar Background */
+.navbar {
+  background: linear-gradient(135deg, #007bff, #0056b3); /* Gradient background for a subtle effect */
+  padding: 1rem 1.5rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhanced box shadow */
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease, text-shadow 0.3s ease, color 0.3s ease; /* Added color transition */
+}
+
+/* Navbar Brand Hover Effect */
+.navbar-brand:hover {
+  color: #ffcc00; /* Highlight brand on hover */
+  transform: translateY(-2px) scale(1.05); /* Scale and lift effect */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Enhanced text shadow */
+}
+
+/* Navbar Links */
+.nav-link {
+  color: #ffffff;
+  margin-right: 1rem;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Navbar Links Hover Effect */
+.nav-link:hover {
+  color: #ffcc00; /* Highlight link text on hover */
+  transform: translateY(-2px) scale(1.05); /* Lift and scale effect */
+}
+
+/* Navbar Links Active */
+.nav-link.active {
+  color: #ffcc00; /* Active link color */
+  border-bottom: 2px solid #ffcc00; /* Highlight with border bottom */
+  transform: translateY(-2px) scale(1.05); /* Lift and scale effect */
+}
+
+/* Responsive Toggler Icon */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1); /* Invert color for visibility */
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .nav-link {
+    margin: 0.5rem 0;
+  }
+}
+
+
+/* Footer Styles */

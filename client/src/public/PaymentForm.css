@@ -1,0 +1,33 @@
+.payment-form-card {
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+.payment-form-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-element-container {
+  margin-bottom: 20px;
+}
+
+.card-error {
+  color: #ff4d4f;
+  margin-bottom: 20px;
+}
+
+.payment-form-button {
+  width: 100%;
+}

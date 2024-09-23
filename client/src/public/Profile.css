@@ -1,0 +1,55 @@
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.ant-input {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+}
+
+.ant-input:focus {
+  border-color: #40a9ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.profile-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.profile-buttons .ant-btn {
+  width: 120px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.profile-buttons .ant-btn:hover {
+  opacity: 0.9;
+}
+
+.profile-buttons .ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+.profile-buttons .ant-btn-default {
+  background-color: #fff;
+  border-color: #dcdcdc;
+}
+
+.profile-buttons .ant-btn-default:hover {
+  border-color: #bfbfbf;
+}

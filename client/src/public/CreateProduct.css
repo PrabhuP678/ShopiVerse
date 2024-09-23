@@ -1,0 +1,119 @@
+/* CreateProduct.css */
+
+/* General Container */
+.create-product-container {
+  display: flex;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.admin-panel {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.form-container {
+  flex: 3;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Card */
+.form-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.product-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: block;
+  color: #333;
+}
+
+.form-control,
+.form-select {
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+/* File Input and Image Preview */
+.form-group input[type="file"] {
+  padding: 0;
+}
+
+.img-preview {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Buttons */
+.btn-submit {
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+.btn-submit:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Loading Spinner */
+.btn-submit:disabled::after {
+  content: " Creating...";
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .create-product-container {
+    flex-direction: column;
+  }
+
+  .admin-panel {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

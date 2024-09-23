@@ -1,0 +1,59 @@
+.policy-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .policy-container h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .policy-container p {
+    margin-bottom: 16px;
+    font-size: 1.1em;
+  }
+  
+  .policy-container h2 {
+    color: #2980b9;
+    margin-top: 24px;
+    font-size: 1.5em;
+  }
+  
+  .policy-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .policy-container ul ul {
+    list-style-type: circle;
+  }
+  
+  .policy-container li {
+    margin-bottom: 10px;
+  }
+  
+  .policy-container strong {
+    color: #2c3e50;
+  }
+  
+  .policy-container p:last-child {
+    text-align: center;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  

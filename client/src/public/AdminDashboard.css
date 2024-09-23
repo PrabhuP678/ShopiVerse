@@ -1,0 +1,35 @@
+/* src/pages/Admin/AdminDashboard.css */
+
+.admin-dashboard {
+  display: flex;
+  min-height: 100vh;
+}
+
+.admin-sidebar {
+  width: 250px;
+  background-color: #343a40;
+  padding: 20px;
+  color: white;
+}
+
+.admin-sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.admin-sidebar a:hover {
+  text-decoration: underline;
+}
+
+.admin-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.admin-content h1 {
+  font-size: 2rem;
+  color: #343a40;
+}

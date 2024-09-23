@@ -1,0 +1,31 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.login-form {
+  background-color: #ffffff; /* White background color */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Max width for form */
+  width: 90%; /* Responsive width */
+}
+
+.login-form .form-label {
+  font-weight: bold;
+  color: #343a40; /* Dark color for labels */
+}
+
+.login-form .form-control {
+  margin-bottom: 1rem; /* Margin below inputs */
+}
+
+.login-form .btn {
+  width: 100%; /* Full width button */
+  padding: 0.75rem;
+  font-size: 1.2rem;
+}

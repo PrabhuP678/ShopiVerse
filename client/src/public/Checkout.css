@@ -1,0 +1,39 @@
+.checkout-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.checkout-card {
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.product-summary {
+  display: flex;
+  align-items: center;
+}
+
+.product-summary-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.product-summary-details h3 {
+  margin: 0;
+}
+
+.order-summary {
+  text-align: right;
+}
+
+.checkout-card h2 {
+  margin-bottom: 20px;
+}
+
+.ant-form-item {
+  margin-bottom: 15px;
+}

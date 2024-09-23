@@ -1,0 +1,22 @@
+.search-results-container {
+  padding: 20px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.price-range-display {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}

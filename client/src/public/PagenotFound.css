@@ -1,0 +1,57 @@
+.page-not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.page-not-found-content {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; /* White background color */
+  max-width: 500px; /* Max width for content */
+  width: 90%; /* Responsive width */
+  position: relative; /* Position for creative elements */
+}
+
+.page-not-found h1 {
+  font-size: 3.5rem;
+  color: #007bff; /* Primary color */
+  margin-bottom: 1rem;
+}
+
+.page-not-found p {
+  font-size: 1.5rem;
+  color: #6c757d; /* Secondary color */
+  margin-bottom: 2rem;
+}
+
+.page-not-found a {
+  text-decoration: none;
+  color: #007bff; /* Link color */
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.page-not-found a:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.error-code {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 6rem;
+  font-weight: bold;
+  color: rgba(0, 123, 255, 0.3); /* Semi-transparent color */
+}
